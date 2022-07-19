@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-nav{
+    width: 100%;
+    height: 35px;
+    background: darkblue;
+}
+.pc-details{
+    display: flex;
+    padding-top: 10px;
+    
+   
+}
+.pc-details p{
+    margin-left: 30px;
+    color: white;
+    font-size: 0.9rem;
+}
+.pc-details .mail{
+    margin-left: 20px;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+.Main-nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background: lavender;
+}
+.logo{
+    color:dodgerblue;
+    font-size: 1.8rem;
+    font-weight: 700;
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.main-nav-links{
+    width: 700px;
+    margin-top: 25px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav-links ul li{
+    list-style: none;
+
+}
+.main-nav-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.main-nav-links ul li a:hover{
+    color:dodgerblue ;
+}
+.join-us{
+    margin-top: 25px;
+    background: dodgerblue;
+    font-size: 1rem;
+    margin-right: 60px;
+    width: 90px;
+    outline: none;
+    border: none;
+    color: white;
+    height: 40px;  
+}
+.join-us:hover{
+    background: blue;
+}
+.header{
+    height: 90vh;
+  background: linear-gradient(rgba(40, 120, 235, 0.9), rgba(40, 120, 235, 0.9)),
+  url(/images/header.jpg), no-repeat center center;
+       
+}
+.header-details{
+    
+    width: 800px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.header-details p{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    padding-top: 50px;
+}
+.header-details H1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 20rem;
+    margin-top: 50px;
+}
+
+.keyword{
+    
+    margin-top: 50px;
+    padding: 20px;
+    width: 320px;
+    outline: none;
+    border: 2px solid white;
+    margin-left: -3px;
+    font-size: 1rem;
+   
+}
+.choose{
+    font-size: 0.9rem;
+    outline: none;
+    border: 2px solid white;
+    background: white;
+    padding: 20px;
+    margin-right: -2px;
+    width: 150px;
+}
+.search{
+    font-size: 1rem;
+    outline: none;
+    border: 2px solid lightcoral;
+    background: lightcoral;
+    padding: 20px;
+    margin-left: -4px;
+    width: 150px;
+}
+.about-as{
+   height: 80vh;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+   align-items: center;
+   justify-content: space-around;
+}
+.about-as img{
+    width: 450px;
+    height: 500px;
+}
+.about-as .abtDetails{
+   height: 450px;
+   margin-left: 20px;
+}
+.abtDetails .p-one{
+    color: lightcoral;
+    border-bottom: dashed 2px lightcoral;
+    width: 80px;
+    padding-bottom: 10px;
+}
+.abtDetails .p-two{
+    color: gray;
+    line-height: 25px;
+}
+.abtDetails .edu{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.boxes{
+    display: flex;
+}
+.abtDetails .box1{
+    width: 150px;
+    padding: 40px 40px;
+    background: #3e8e41;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.abtDetails .box2{
+    width: 150px;
+    padding: 40px 40px;
+    background: dodgerblue;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.abtDetails .box3{
+    width: 150px;
+    padding: 40px 40px;
+    background: lightcoral;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.abtDetails .box4{
+    padding: 40px 40px;
+    width: 150px;
+    background: gold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+}
+.Why-choose-us{
+    background:linear-gradient(rgba(40, 120, 235, 0.05),rgba(40, 120, 235, 0.05)) fixed
+    ,url(/images/bg-image.jpg);
+    display: flex;
+  
+}
+.chooseDetails{
+    margin-left: 300px;
+    width: 550px;
+    padding-top: 100px;
+    padding-right: 20px;
+    
+  
+}
+.chooseDetails .p-1{
+    color: lightcoral;
+    font-size: 1.2rem;
+    border-bottom: dashed 2px red;
+    padding-bottom: 10px;
+    width: 180px;
+}
+.chooseDetails .why-start-with-us{
+    font-size: 2.5rem;
+    line-height: 60px;
+    font-weight: 800;
+}
+.chooseDetails .p-2{
+    color: grey;
+    font-size: 1rem;
+    line-height: 25px;
+}
+.boxes-info1{
+    display: flex; 
+    
+}
+.boxes-info1 .box-one{
+    width: 150px;
+    background: green;
+    margin-right: 10px;
+}
+.box1text{
+    
+    margin-left: 10px;
+}
+.box1text p{
+    color: gray;
+    line-height: 25px;
+}
+.boxes-info2{
+    display: flex;   
+}
+
+.boxes-info2 .box-two{
+    width: 150px;
+    background: lightcoral;
+    margin-right: 10px;
+}
+.box2text{
+    
+    margin-left: 10px;
+}
+.box2text p{
+    color: gray;
+    line-height: 25px;
+}
+.boxes-info3{
+    display: flex;   
+}
+
+.boxes-info3 .box-three{
+    width: 150px;
+    background: gold;
+    margin-right: 10px;
+}
+.box3text{
+    
+    margin-left: 10px;
+}
+.box3text p{
+    color: gray;
+    line-height: 25px;
+}
+
+.Why-choose-us img{
+    width: 500px;
+}
+.our-courses{
+    height: 350px;
+}
+.our-courses .ourCoursesDetails{
+    padding-top: 150px;
+    width: 650px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ourCoursesDetails p{
+    color: lightcoral;
+    font-size: 1.2rem;
+    border-bottom: dashed 2px red;
+    padding-bottom: 5px;
+    width: 150px;
+    margin-left: 250px;
+}
+.ourCoursesDetails h1{
+    font-size: 2.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    font-weight: 800;
+}
+.sign-up{
+    background:linear-gradient(rgba(40, 120, 235, 0.05),rgba(40, 120, 235, 0.05)) fixed
+    ,url(/images/bg-image.jpg);
+    height: 500px;
+    padding-top: 100px;
+    
+}
+.sign-up .signUp-box{
+    background: white;
+    height: 300px;
+    width: 730px;
+    text-align: center;
+    margin-left: auto;
+    padding-top: 60px;
+    margin-right: auto;
+}
+.signUp-box h1{
+    margin-bottom: 20px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.2rem;
+    font-weight: 700;
+
+}
+.signUp-box form{
+   
+    display: flex;
+    width:620px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.signUp-box form input{
+    background: rgb(236, 244, 255);
+    border-color: rgb(236, 244, 255);
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding-left: 10px;
+    width: 300px;
+    height: 70px;
+}
+.signUp-box form input:focus{
+    border:4px solid rgba(40, 120, 235,0.3);
+}
+.signUp-box form .your-name{
+    
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.signUp-box form select{
+    font-size: 1rem;
+   background: rgb(236, 244, 255);
+   border-color: rgb(236, 244, 255);
+    width:300px ;
+    height: 70px;
+    margin-right: 10px;
+    outline: none;
+}
+.signUp-box form select:focus{
+    border:4px solid rgba(40, 120, 235,0.3);
+}
+.signUp-box form button{
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background: rgb(40, 120, 235);
+    border-color:  rgb(40, 120, 235);
+    width: 300px;
+    height: 70px;
+    margin-top: 10px;
+}
+.signUp-box form button:hover{
+    background: blue;
+}
+.instructors{
+    padding-top: 100px;
+    height: 400px;
+   text-align: center;
+}
+.instructors p{
+    margin-top: 70px;
+    color: lightcoral;
+    font-size: 1.2rem;
+    border-bottom: dashed 2px red;
+    padding-bottom: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+.instructors h1{
+
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.testimonial{
+    height: 500px;
+    background:linear-gradient(rgba(40, 120, 235, 0.05),rgba(40, 120, 235, 0.05)) fixed
+    ,url(/images/bg-image.jpg);
+    padding-top: 50px;
+}
+.testimonial .testimo{
+    margin-left: 300px;
+    margin-top: 70px;
+    color: lightcoral;
+    font-size: 1.2rem;
+    border-bottom: dashed 2px red;
+    padding-bottom: 5px;
+    width: 130px;
+    margin-bottom: 20px;
+}
+.testimonial h1{
+    margin-left: 300px;
+    font-size: 3rem;
+    line-height: 55px;
+    font-weight: 750;
+}
+.testimonial .testimonailP{
+    margin-left: 300px;
+    color: gray;
+    font-size: 1.2rem;
+    line-height: 30px;
+    
+}
+.need-help{
+    display: flex;
+    height: 700px;
+    padding-top: 150px;
+    padding-left: 250px;
+}
+.need-help .location{
+    background:rgb(236, 244, 255);
+    width: 400px;
+    height: 470px;
+}
+.location .ourLocation-info{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    height: 80px;
+}
+.ourLocation-info .blue-box{
+    width: 80px;
+    background: green;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.ourLocation p{
+    color: gray;
+}
+.location .callUs-info{
+    display: flex;
+    margin-bottom: 40px;
+   
+    height: 80px;
+}
+.callUs-info .orange-box{
+    width: 80px;
+    background: orangered;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.call-us p{
+    color: gray;
+}
+.location .emailus-info{
+    display: flex;
+    height: 80px;
+}
+.emailus-info .gold-box{
+    width: 80px;
+    background: blueviolet;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.email-us p{
+    color: gray;
+}
+.message-us{
+    width: 600px;
+}
+.message-us p{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: lightcoral;
+    font-size: 1.2rem;
+    border-bottom: dashed 2px red;
+    padding-bottom: 5px;
+    width: 120px;
+   
+}
+.message-us h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.message-us form{
+    margin-left: 30px;
+}
+.message-us form input{
+    width: 270px;
+    font-size: 1rem;
+    height: 60px;
+    border-width: 1px;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+}
+.message-us form input:focus{
+    border:4px solid rgba(40, 120, 235,0.3);
+}
+.message-us form .subject{
+    width: 543px;
+    margin-top: 10px;
+}
+.message-us form textarea{
+    margin-top: 10px;
+    width: 543px;
+    outline: none;
+    padding-top: 10px;
+    font-size: 1rem;
+    height: 130px;
+    border-width: 1px;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.message-us form textarea:focus{
+    border:4px solid rgba(40, 120, 235,0.3);
+}
+.message-us form button{
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background: rgb(40, 120, 235);
+    border-color:  rgb(40, 120, 235);
+    width: 300px;
+    height: 70px;
+    margin-top: 15px;
+}
+.message-us form button:hover{
+    background: blue;
+}
+.news-letter{
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    background: rgb(18, 15, 45);
+    height: 650px;
+}
+.news-letter .kstu{
+    display: flex;
+    margin-left: 230px;
+}
+.kstu .sch-info h1{
+     color: white;
+     font-size: 2.5rem;
+     font-weight: 700
+}
+.kstu .sch-info{
+    margin-top: 80px;
+}
+.kstu .sch-info p{
+    color: gray;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.kstu .news-input{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.kstu .news-input h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.kstu .news-input input{
+    width: 350px;
+    height: 60px;
+    margin-right: -1px;
+    outline: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+.kstu .news-input button{
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    color: white;
+    background: rgb(40, 120, 235);
+    border-color:  rgb(40, 120, 235);
+    width: 150px;
+    height: 60px;
+    margin-left: -3px;
+    border: none;
+    
+}
+.kstu .news-input button:hover{
+    background: blue;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-left:72px ;
+}
+.links .get-in-touch h3{
+     color: white;
+     font-size: 2rem;
+
+}
+.links .get-in-touch p{
+    color: gray;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.links .ourCourses h3{
+    color: white;
+    font-size: 2rem;
+}
+.links .ourCourses p{
+    color: gray;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.links .ourCourses p a{
+    text-decoration: none;
+    color: gray;
+}
+.links .ourCourses p a:hover{
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid gray;
+}
+.links .quick-links h3{
+    color: white;
+    font-size: 2rem;
+}
+.quick-links .p-a{
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 30px;
+    color: gray;
+}
+.quick-links .p-a:hover{
+    color: white;
+    border-bottom: 2px solid gray;
+}
+.news-letter hr{
+    
+    margin-top: 100px;
+}
+.news-letter .footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.footer .copyrights{
+    color: gray;
+    font-size: 1rem;
+    margin-left: 250px;
+}
+.footer .developer{
+    color: gray;
+    font-size: 1rem;
+    margin-right: 200px;
+}
+
+
+
